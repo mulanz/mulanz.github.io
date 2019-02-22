@@ -1,0 +1,81 @@
+.logo {
+  position: absolute;
+  top: 10%;
+  left: 2%;
+  width:25%;
+}
+
+#topbar_line {
+  position: absolute;
+  width: 67%;
+  left: 30%;
+  top: 50%;
+
+}
+
+#bar-links {
+  text-align: center;
+  justify-content: space-evenly;
+  height: 20vh;
+  position: relative;
+}
+
+.title-links {
+  position: absolute;
+  top: 15%;
+}
+#about-link {
+  left: 63%;
+  position: absolute;
+  -webkit-transform: translate(-50%, 0);
+}
+
+#software-link {
+  position: absolute;
+  left: 73%;
+  -webkit-transform: translate(-50%, 0);
+}
+
+#design-link {
+  position: absolute;
+  left: 83%;
+  -webkit-transform: translate(-50%, 0);
+}
+
+#shots-link {
+  position: absolute;
+  left: 93%;
+  -webkit-transform: translate(-50%, 0);
+}
+
+#about-box {
+  position: relative;
+}
+
+#mulan_pic {
+  width: 25%;
+  position: absolute;
+  left: 10%;
+  top: 11%;
+  z-index: 2;
+}
+
+#box_yellow {
+  width: 55%;
+  position: absolute;
+  top: 3%;
+  left: 25%;
+  z-index: 1;
+}
+
+#about-font {
+  display: block;
+  width: 40%;
+  position: absolute;
+  top: 7%;
+  left: 35%;
+  z-index: 3;
+}
+.text-emphasis {
+  color: #E29D13;
+}
