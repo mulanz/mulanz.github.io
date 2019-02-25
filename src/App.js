@@ -8,7 +8,7 @@ import Design from "./Design.js";
 class App extends Component {
   render() {
     return (
-      <div className="entire-website">
+      <div id="entire-website">
       <About/>
       <Software/>
       <Design/>

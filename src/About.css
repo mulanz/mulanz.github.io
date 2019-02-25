@@ -75,21 +75,26 @@
 
 .yellow-circle {
   position: absolute;
+  right: 3%;
   width: 1%;
 }
 
 #circle1 {
-  right: 1%;
+  position: fixed;
+  top: 42.5%;
 }
 
 #circle2 {
-
+  position: fixed;
+  top: 47.5%;
 }
 
 #circle3 {
-
+  position: fixed;
+  top: 52.5%;
 }
 
 #circle4 {
-
+  position: fixed;
+  top: 57.5%;
 }

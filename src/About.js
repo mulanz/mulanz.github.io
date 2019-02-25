@@ -21,10 +21,10 @@ class About extends React.Component {
           </div>
         </div>
         <div id="about-page" className="page">
-          <img className="yellow-circle" id="circle1" src={yellow_circle} alt="yellow circles"/>
-          <img className="yellow-circle" id="circle1" src={yellow_circle} alt="yellow circles"/>
-          <img className="yellow-circle" id="circle1" src={yellow_circle} alt="yellow circles"/>
-          <img className="yellow-circle" id="circle1" src={yellow_circle} alt="yellow circles"/>
+          <a href="#"><img className="yellow-circle" id="circle1" src={yellow_circle} alt="yellow circles"/></a>
+          <a href="#software-page"><img className="yellow-circle" id="circle2" src={yellow_circle} alt="yellow circles"/></a>
+          <a href="design-page"><img className="yellow-circle" id="circle3" src={yellow_circle} alt="yellow circles"/></a>
+          <img className="yellow-circle" id="circle4" src={yellow_circle} alt="yellow circles"/>
           <img id="mulan_pic" src={mulan_pic} alt="mulan pic"/>
           <img id="box_yellow" src={box_yellow} alt="box yellow"/>
           <div id="about-font">
