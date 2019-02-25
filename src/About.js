@@ -4,6 +4,7 @@ import mulan_pic from './images/homepage/mulan_icon.png';
 import mulanzhao_logo from './images/homepage/mulanzhao_logo.png';
 import topbar_line from './images/homepage/line_for_topbar.png';
 import box_yellow from './images/homepage/box_yellow.png';
+import yellow_circle from './images/page_circle.png'
 class About extends React.Component {
   render() {
     //return <h1>Hello, {this.props.name}</h1>;
@@ -15,11 +16,15 @@ class About extends React.Component {
           <div id="bar-links" className="space-evenly">
             <a href="#" class="link-text"><h3 className="title-links" id="about-link">about</h3></a>
             <a href="#software-page" class="link-text"><h3 className="title-links" id="software-link">software</h3></a>
-            <h3 className="title-links" id="design-link">design</h3>
+            <a href="#design-page" class="link-text"><h3 className="title-links" id="design-link">design</h3></a>
             <h3 className="title-links" id="shots-link">shots</h3>
           </div>
         </div>
         <div id="about-page" className="page">
+          <img className="yellow-circle" id="circle1" src={yellow_circle} alt="yellow circles"/>
+          <img className="yellow-circle" id="circle1" src={yellow_circle} alt="yellow circles"/>
+          <img className="yellow-circle" id="circle1" src={yellow_circle} alt="yellow circles"/>
+          <img className="yellow-circle" id="circle1" src={yellow_circle} alt="yellow circles"/>
           <img id="mulan_pic" src={mulan_pic} alt="mulan pic"/>
           <img id="box_yellow" src={box_yellow} alt="box yellow"/>
           <div id="about-font">

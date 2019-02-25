@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import About from "./About.js";
 import Software from "./Software.js";
+import Design from "./Design.js";
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
       <div className="entire-website">
       <About/>
       <Software/>
+      <Design/>
       </div>
     );
   }

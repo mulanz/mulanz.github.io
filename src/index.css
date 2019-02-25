@@ -26,6 +26,12 @@ code {
   position: relative;
 }
 
+/* #side-bar {
+  position: relative;
+  height: 30vh;
+  width: 5vh;
+} */
+
 .full-page {
   position: relative;
   height: 100vh;
@@ -41,4 +47,11 @@ code {
 
 .link-text:hover {
   color: #EDB21F;
+}
+
+.logo {
+  position: absolute;
+  top: 10%;
+  left: 2%;
+  width:25%;
 }
